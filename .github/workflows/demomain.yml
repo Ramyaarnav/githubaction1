@@ -1,0 +1,6 @@
+steps:
+  - name: Display the path
+    shell: python
+    run: |
+      import os
+      print(os.environ['PATH'])
